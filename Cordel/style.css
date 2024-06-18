@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: KALAM;
+    src: url(fontes/Kalam-Regular.ttf) format(truetype);
+    }
+
+    @font-face {
+        font-family: ANTON;
+        src: url(fontes/Anton-Regular.ttf) format(truetype);
+    }
+
+
+    :root {
+        --fonte1: KALAM, Geneva, Tahoma, sans-serif;
+        --fonte2: NOTO;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        }
+
+    header {
+        font-family: var(--fonte2);
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+
+    }
+
+    header h1 {
+        padding-top: 50px;
+        margin: -8px 0px 0px 0px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    header p {
+        font-size: 2vw;
+        margin: -40px 0px 0px 0px;
+        padding: 0px 0px 30px 0px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 3em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 2.5vw;
+    }
+
+    section > p {
+        font-family: var(--fonte1);
+        font-size: 2em;
+    }
+
+    section.imagem {
+         /*-- São esses os comandos do efeito Parallax --*/
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    section#img01 {
+        background-image: url(imagens/background001.jpg);
+        background-position: right center;
+    }
+
+    section#img01 > p {
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.514);
+        text-shadow: 1px 1px 0px black;
+    }
+
+
+
+    section#img02 {
+        background-image: url(imagens/background002.jpg);
+        background-position: right center;
+    }
+
+
+    section#img02 > p {
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.514);
+        text-shadow: 1px 1px 0px black;
+    }
+
+
+    footer > p {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: var(--fonte1);
+        font-size: 2vh;
+    }
+
+    /*-- Teste de Modificação --*/

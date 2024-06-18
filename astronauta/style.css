@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ou qualquer outra altura desejada */
+}
+
+
+
+.imagem-fundo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Isso garante que a imagem de fundo cubra todo o contêiner */
+}
+
+.imagem-frente {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para que a imagem fique realmente centralizada */
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*-- em HTML é "id" e em CSS é "#" --*/
+/*-- em HTML é "class" e em CSS é "." --*/
+
+@font-face {
+    font-family: MONTE;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+    }
+@font-face {    
+    font-family: ROBOTO;
+    src:url(fonts/RobotoMono-VariableFont_wght.ttf);
+    }
+@font-face {
+    font-family: UBUNTU;
+    src: url(fonts/UbuntuSans-VariableFont_wdth\,wght.ttf);
+    }
+
+body{
+    background-color: #E0EEC6;
+    font-family: MONTE;
+    text-align: center;
+}
+h2{
+    color: #7CA982;
+    font-family: UBUNTU;
+    text-align: left;
+}
+h1{
+    color: #243E36;
+    font-family: ROBOTO;
+    text-align: center;
+}
+h1#principal {
+    text-align: center;
+    background-color: #719431;   
+    color: white;
+    font-family: ROBOTO;
+}
+.basico{
+    color: #069E2D ;
+    font-weight: bolder;
+}
+.intermediario{
+    color: #069E2D;
+    font-weight: bolder;
+}
+.avancado{
+    color: #069E2D;
+    font-weight: bolder;
+}
+.destaque {
+    background-color: #8CD790;
+}
