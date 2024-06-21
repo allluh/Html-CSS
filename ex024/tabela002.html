@@ -23,6 +23,13 @@
             color: whitesmoke;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         .num {
             text-align: right;
 
@@ -33,8 +40,9 @@
 <body>
     <h1>Uso de Tabelas Grandes</h1>
     <!--
-        ANATOMIA PARA TABELAS GRANDE
+        ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -42,8 +50,15 @@
             TFOOT
                 TR, TD, TH
     -->
+
+    <!--
+        SEMPRE QUE FOR UM DADO = <td></td>
+        
+        SEMPRE QUE FOR UM TITULO = <th></th>
+    -->
     
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
