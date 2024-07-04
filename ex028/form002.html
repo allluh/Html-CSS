@@ -7,9 +7,9 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="post"></form>
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p>
-            <label for="iusu">Usuário: <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15"></label>
+            <label for="iusu">Usuário: <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15"> </label>
         </p>
         <p>
             <label for="isen">Senha: <input type="password" name="senha" id="isen" required minlength="5"></label>
@@ -18,5 +18,6 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+    </form>
 </body>
 </html>
