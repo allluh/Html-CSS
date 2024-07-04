@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+         * {
+            font-family: Arial, Helvetica, sans-serif;
+         }
+    </style>
+</head>
+<body>
+
+    <!--Quando usar "Get" e quando usar "Post"-->
+
+    <!--Usamos "Get" quando os dados não são sensiveis como por exemplo quando estamos pedindo um nome, idade, peso, uma busca no google e etc.-->
+
+    <!--O "Post" é ideal para o uso de cadastro de formularios, como login, cadastro, envio de arquivos, quando os dados não são sensiveis.-->
+
+
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    
+</body>
+</html>
