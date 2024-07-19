@@ -5,8 +5,11 @@
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*--Desktop--*/
+@media screen and (min-width: 992px) and (max-width: 3000px) { /*--Desktop--*/
 
+    header h1 {
+        color: darkred;
+    }
 
 
 
@@ -19,7 +22,9 @@
 
 @media screen and (min-width: 769px) and (max-width: 992px) { /*--TABLET--*/
     
-
+    header h1 {
+        color: darkblue;
+    }
 
     img#phone {display: none;}
     img#tablet {display: block;}
@@ -28,9 +33,11 @@
     img#tv {display: none;}
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px)  { /*--Celular--*/
+@media screen and (min-width: 200px) and (max-width: 768px)  { /*--Celular--*/
     
-
+    header h1 {
+        color: darkorchid;
+    }
 
     img#phone {display: block;}
     img#tablet {display: none;}
@@ -39,9 +46,11 @@
     img#tv {display: none;}
 }
 
-@media screen and (min-width: 1200px) { /*--TV--*/
+@media screen and (min-width: 3000px) { /*--TV--*/
     
-
+    header h1 {
+        color: darkkhaki;
+    }
 
 
     img#phone {display: none;}
