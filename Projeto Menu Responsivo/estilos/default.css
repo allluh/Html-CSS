@@ -37,9 +37,14 @@ header nav {
 
 }
 
+menu {
+    display: none;
+}
+
 nav a:hover {
     background-color: #575757; 
     color: white;
+    
     }
 
 main h1 {
@@ -60,8 +65,22 @@ main {
     margin: auto;
     margin-top: 10px;
     text-align: center;
-    width: 90vw;
+    width: 768px;
 
+}
+
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 main p {
