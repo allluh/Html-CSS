@@ -57,6 +57,7 @@ header span#burguer {
 header span#burguer:hover {
     background-color: rgb(85, 85, 85);
     color: white;
+    cursor: pointer;
 }
 
 main {
