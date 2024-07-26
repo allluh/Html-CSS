@@ -7,108 +7,76 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    background-color: lightgoldenrodyellow;
 }
 
-header{
-    background-color: lightgrey;
-    padding: 10px;
-    text-align: center;
-    margin: auto;
-
+header {
+    padding: 0;
+    margin: 0;
 }
 
 header h1 {
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.250);
-    text-align: center;
-    padding: 10px 0;
-    padding-top: 0;
-    padding-bottom: 10pxs;
-    margin: 0;
-}
-
-header nav {
-    margin: 20px;
-    margin-bottom: -10px;
-    margin-left: -17px;
-    padding: 5px;
-    text-align: left;
-
-}
-
-menu {
-    display: none;
-}
-
-nav a:hover {
-    background-color: #575757; 
-    color: white;
-    
-    }
-
-main h1 {
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.250);
-    padding: 1%;
-    text-align: left;
-    display: grid;
-    place-items: center;
-
-}
-
-main {
-    background-color: lightgrey;
-    display: grid;
-    place-items: center;
-    border-radius: 10px;
+    background-color: lightgray;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.49);
     padding: 10px;
-    margin: auto;
-    margin-top: 10px;
-    text-align: center;
-    width: 768px;
-
-}
-
-span#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
+    margin: 10px;
     display: block;
     text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-span#burguer:hover {
-    background-color: white;
-    color: black;
-}
-
-main p {
-    margin: auto;
 }
 
 a {
-    background-color: #575757;
+    background-color: rgb(112, 110, 110);
     color: white;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    display: inline-block;
+}
 
-
+a:hover {
+    background-color: rgb(85, 85, 85);
+    color: white;
 }
 
 ul {
     list-style-type: none;
-    display: block;
-    text-align: left;
-    margin: 0;
+    text-align: center;
     padding: 0;
+    margin: 0;
+    justify-content: center;
 }
 
+header span#burguer {
+    display: block;
+    text-align: center;
+    background-color: rgb(112, 110, 110);
+    color: white;
+}
 
+header span#burguer:hover {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
 
+main {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
 
+main h1 {
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.49);
+}
+
+footer {
+    background-color:rgb(112, 110, 110);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-size: auto;
+}
 
 img#phone {display: none; }
 img#tablet {display: none; }
